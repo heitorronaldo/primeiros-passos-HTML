@@ -1,20 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Projeto CSS</title>
-    <!-- Link para o CSS na pasta assets -->
-    <link rel="stylesheet" href="assets/style.css" />
-    <!-- Link para fonte Bai Jamjuree no Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap&quot; rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Flashcard</title>
 </head>
 <body>
-    <header>
-        <h1>Programação</h1>
-    </header>
-
     <main>
-        <section class="cards-container">
-            <div class="card">Card 1: Conteúdo
-
+        <section id="container">
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        O que é JavaScript?
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        O JavaScript é uma linguagem de programação
+                    </div>
+                </div>
+            </article>
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        O que é CSS?
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        O CSS é uma linguagem de estilização
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
+    </footer>
+</body>
+</html>
